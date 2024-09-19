@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3c59ff;
+    color: white;
+    padding: 15px 20px; /* Added padding for top and bottom */
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px; /* Adjust spacing as needed */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    text-align: center; /* Keep text centered in sections */
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Removes bottom space */
+}
+
+.about-content {
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    justify-content: space-between; /* Space between text and image */
+    text-align: left; /* Align text to the left */
+}
+
+.about-image {
+    width: 400px; /* Set a larger width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px; /* Space between image and text */
+}
+
+.product {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.product-image {
+    width: 150px;  /* Adjust width as needed */
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 5px;  /* Optional: add rounded corners */
+    margin-bottom: 10px;  /* Space between image and text */
+}
+
+footer {
+    background-color: #566fff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4d67ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4262ff;
+}

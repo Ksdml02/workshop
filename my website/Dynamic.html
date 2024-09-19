@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Store</title>
+    <link rel="stylesheet" href="dynamic.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Samsung Store</h1>
+        <p>Explore the latest Samsung devices and technology!</p>
+        <div class="banner">
+            <img src="22.webp" alt="Samsung Banner" class="banner-image">
+        </div>
+    </section>
+
+    <section id="about">
+
+        <h2>About Us</h2>
+        <div class="about-content">
+        <p>Samsung was founded by Lee Byung-chul in 1938 as a trading company. Over the next three decades, the group diversified into areas including food processing, textiles, insurance, securities, and retail. Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s; these areas would drive its subsequent growth. Following Lee's death in 1987, Samsung was separated into five business groups – Samsung Group, Shinsegae Group, CJ Group, Hansol Group, and JoongAng Group. Samsung industrial affiliates include Samsung Electronics, Samsung Heavy Industries, Samsung Engineering and Samsung C&T Corporation. Other subsidiaries include Samsung Life Insurance and Cheil Worldwide. Notable Samsung industrial affiliates include Samsung Electronics (the world's largest information technology company, consumer electronics maker and chipmaker measured by 2017 revenues),[5][6] Samsung Heavy Industries (the world's second largest shipbuilder measured by 2010 revenues),[7] and Samsung Engineering and Samsung C&T Corporation (respectively the world's 13th and 36th largest construction companies).[8] Other notable subsidiaries include Samsung Life Insurance (the world's 14th largest life insurance company),[9] Samsung Everland (operator of Everland Resort, the oldest theme park in South Korea)[10] and Cheil Worldwide (the world's 15th largest advertising agency, as measured by 2012 revenues).[11][12]</p>
+        <img src="s24.jpg" alt="Samsung Products" class="about-image">
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="s21.jpg" alt="Galaxy S21" class="product-image">
+            <h3>Galaxy S21</h3>
+            <p>Features: 8GB RAM, 128GB Storage, Triple Camera</p>
+        </div>
+        <div class="product">
+            <img src="tab.jpg" alt="Galaxy Tab S7" class="product-image">
+            <h3>Galaxy Tab S7</h3>
+            <p>Features: 6GB RAM, 128GB Storage, 120Hz Display</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Samsung Store. All rights reserved.</p>
+    </footer>
+
+    <script src="dynamic.js"></script>
+</body>
+</html>
